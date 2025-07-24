@@ -1,0 +1,78 @@
+/* import font จาก google font */
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=ZCOOL+QingKe+HuangYou&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jua&family=ZCOOL+QingKe+HuangYou&display=swap');
+
+/* จัดเรียงหน้าจอให้อยู่ตรงกลาง */
+.flex{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+}
+
+/* ปรับ scale image */
+.img_{
+    width: 400px;
+    height: 500px;
+    border-radius: 5px;
+}
+
+/* จัดข้อความใต้ image */
+.box{
+    width: 550px;
+    color: white;
+}
+
+/* จัดเรียง "MOVIE" และปรับขนาด font */
+.title{
+    font-family: "Jua", sans-serif !important;
+    text-align: center;
+    margin-bottom: 50px;
+    border-bottom: 5px solid black;
+    background: black;
+    padding: 10px;
+    font-size: 50px;
+    color: white;
+}
+/* ทำให้ tag -> p ลดขนาดแนวแกน Y */
+p{
+    margin-block: 10px;
+}
+/* ให้ body ไม่มี margin และ change bg color */
+body{
+    margin: 0px;
+    background: rgb(32, 31, 31);
+}
+
+/* ทำให้ขอบของ button มนขึ้นและปรับ change scale font*/
+.btn{
+    border-radius: 100px; width: 125px; height: 45px;
+    font-size: 17px;
+}
+
+/* เมื่อวางเมาส์จะเปลี่ยนสี */
+.btn:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+/* เพิ่ม font */
+.fmr{
+    font-family: "Inter", sans-serif;
+}
+
+/* จัดเรียงปุ่ม "<back" */
+.back{
+    margin: 20px;
+    margin-top: 30px;
+    position: fixed;
+    color: white;
+}
+
+/* เมือ hover "<back" จะเปลี่ยนสี */
+.back:hover{
+    color: pink;
+    cursor: pointer;
+}
